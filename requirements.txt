@@ -1,6 +1,7 @@
 Flask
 Flask-Cors
 joblib
+pandas
 requests
 scikit-learn
 gunicorn
