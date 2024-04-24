@@ -1,0 +1,6 @@
+Flask
+Flask-Cors
+joblib
+requests
+scikit-learn
+gunicorn
