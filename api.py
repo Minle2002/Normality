@@ -22,6 +22,7 @@ def predict():
     new_data = pd.DataFrame(data)
 
     predictions = model.predict(new_data)
+    
     predicted_classes = label_encoder.inverse_transform(predictions)
 
     return jsonify({"predictions": predicted_classes.tolist()})
